@@ -11,7 +11,7 @@ RUN	apk add --no-cache \
   ca-certificates \
   curl \
   jq \
-  findutils
+  file
 
 COPY upload-to-release /usr/bin/upload-to-release
 
